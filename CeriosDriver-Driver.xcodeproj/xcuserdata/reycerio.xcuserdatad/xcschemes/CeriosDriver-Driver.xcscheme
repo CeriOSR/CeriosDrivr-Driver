@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E01996021E7A051700F325B3"
+               BuildableName = "CeriosDriver-Driver.app"
+               BlueprintName = "CeriosDriver-Driver"
+               ReferencedContainer = "container:CeriosDriver-Driver.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E01996191E7A051700F325B3"
+               BuildableName = "CeriosDriver-DriverTests.xctest"
+               BlueprintName = "CeriosDriver-DriverTests"
+               ReferencedContainer = "container:CeriosDriver-Driver.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E01996241E7A051700F325B3"
+               BuildableName = "CeriosDriver-DriverUITests.xctest"
+               BlueprintName = "CeriosDriver-DriverUITests"
+               ReferencedContainer = "container:CeriosDriver-Driver.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E01996021E7A051700F325B3"
+            BuildableName = "CeriosDriver-Driver.app"
+            BlueprintName = "CeriosDriver-Driver"
+            ReferencedContainer = "container:CeriosDriver-Driver.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,23 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E01996021E7A051700F325B3"
+            BuildableName = "CeriosDriver-Driver.app"
+            BlueprintName = "CeriosDriver-Driver"
+            ReferencedContainer = "container:CeriosDriver-Driver.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +97,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E01996021E7A051700F325B3"
+            BuildableName = "CeriosDriver-Driver.app"
+            BlueprintName = "CeriosDriver-Driver"
+            ReferencedContainer = "container:CeriosDriver-Driver.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
